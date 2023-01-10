@@ -1,0 +1,115 @@
+/* Write your CSS code here */
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-color: rgb(34, 70, 124);
+  background-size: cover;
+}
+
+.req-container {
+  background-image: linear-gradient(white, red);
+  width: 30%;
+  height: 40vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.ord-container {
+  background-image: linear-gradient(to left, white, rgb(81, 81, 223));
+  width: 30%;
+  height: 40vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.fin-container {
+  background-image: linear-gradient(white, rgb(10, 78, 36));
+  width: 30%;
+  height: 40vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.status-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-sts-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  height: 80vh;
+  background-image: url('https://res.cloudinary.com/ddqrzz4nx/image/upload/v1673073485/pexels-photo-4700383_eeoblo.jpg');
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.products-img {
+  width: 200px;
+}
+
+.input-cont {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+.submit-btn-container {
+  text-align: center;
+}
+
+.submit-btn {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.head {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .fin-container {
+  }
+  .req-head {
+    font-size: 20px;
+  }
+}
